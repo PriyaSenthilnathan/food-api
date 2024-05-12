@@ -4,7 +4,7 @@ import {
     foodCreate,
     foodUpdate,
     foodDelete,
-} from "../controllers/food.controller";
+} from "../controllers/food.controller.js";
 const router=express.Router();
 //Read
 router.get("/",foodIndex);
